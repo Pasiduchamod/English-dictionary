@@ -13,14 +13,14 @@ body{
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  background: #2681dc;
+  background:linear-gradient(135deg,rgb(21, 21, 21),rgb(101, 101, 101));
 }
 .container{
   background: white;
   width: 100%;
   max-width: 400px;
   padding: 2rem;
-  box-shadow: 5px 5px #388ee4;
+  box-shadow: 5px 5px #323232;
   border-radius: 10px;
 }
 
@@ -28,7 +28,7 @@ body{
   font-size: 2rem;
   text-align: center;
   text-transform: capitalize;
-  color: #2681dc;
+  color: #323232;
 }
 
 .container form{
@@ -65,7 +65,7 @@ body{
 }
 
 .container form .row .voices-icons i.speak{
-  color: #2681dc;
+  color: #323232;
 }
 
 .container form textarea,
@@ -118,7 +118,7 @@ body{
   padding: 5px 0;
   padding-left: 10px;
   border-radius:5px ;
-  border-left: 3px solid #2681dc;
+  border-left: 3px solid #323232;
 }
 
 .container ul .contain .details p{
@@ -127,12 +127,12 @@ body{
 
 .container ul .contain .synonyms span{
   opacity: 0.6;
-  border-bottom: 1px dotted #2681dc;
+  border-bottom: 1px dotted #323232;
   cursor: pointer;
 }
 
 .container ul .contain .synonyms span:hover{
-  color: #2681dc;
+  color: #323232;
 }
 
 ::-webkit-scrollbar{
